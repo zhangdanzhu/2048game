@@ -1,2 +1,4 @@
-# 2048game
-牛客网上的2048游戏，照着做的,c++版本
+﻿# 2048game
+照着做的 ：  https://www.cnblogs.com/darksouls/p/8227821.html
+
+需要pygame，numpy等库。
