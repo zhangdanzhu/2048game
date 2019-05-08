@@ -243,7 +243,7 @@ class GameInit(object):
 
 def main():
     pygame.init()
-    screen = pygame.display.set_mode(SCREEN_SIZE, FULLSCREEN, 32)  # 屏幕设置，第一个参数分辨率，第二个参数模式(若不需要全屏则置0)，第三个参数色深
+    screen = pygame.display.set_mode(SCREEN_SIZE, 0, 32)  # 屏幕设置，第一个参数分辨率，第二个参数模式(FULLSCREEN为全屏若不需要全屏则置0)，第三个参数色深
     # 初始化棋盘，获得最初的一个数
     matrix = GameInit.initData(SIZE)
     # 当前分数
